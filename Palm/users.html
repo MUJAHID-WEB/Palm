@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Admin Panel</title>
+  </head>
+  <body>
+    <header>
+        <div class="container-fluid header_full">
+            
+        </div>
+    </header>
+    <section>
+        <div class="container-fluid content_part_full">
+            <div class="row">
+                <div class="col-md-2 sidebar_part">
+                  <div class="user_part">
+                    <img src="images/avatar.png" alt="avatar">
+                    <h4>Riham Raed</h4>
+                    <p><i class="fa fa-circle"></i> Online</p>
+                  </div>
+                <div class="menu">
+
+
+                       <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i> Dashboard</a></li>
+                
+                <li data-toggle="collapse" data-target="#tt" aria-expanded="false"><a href="#"><i class="fa fa-medkit"></i> Tree Treatment </a>
+                <ul id="tt" aria-expanded="false" class="collapse">
+                  <li><a href="#"><i class="fa fa-tree"></i> Manage</a>
+                  <ul>
+                    <li><a href="tree.html"><i class="fa fa-tree"></i> Tree</a></li>
+                    <li><a href="document.html"><i class="fa fa-file-text"></i> Document</a></li>
+                    <li><a href="disease.html"><i class="fa fa-medkit"></i> Disease</a></li>
+                    <li><a href="water.html"><i class="fa fa-tint"></i> Water</a></li>
+                    <li><a href="fertilization.html"><i class="fa fa-leaf"></i> Fertilization</a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><i class="fa fa-file-text"></i> Productivity</a>
+                <ul>
+                  <li><a href="quantities.html"><i class="fa fa-calculator"></i> Quantities</a></li>
+                  <li><a href="chart.html"><i class="fa fa-bar-chart"></i> Chart</a></li>
+                </ul>
+              </li>
+              <li><a href="#"><i class="fa fa-medkit"></i> settings</a>
+              <ul>
+                <li><a href="diseases.html"><i class="fa fa-medkit"></i> Diseases</a></li>
+                <li><a href="fertilizations.html"><i class="fa fa-leaf"></i> Fertilizations</a></li>
+                <li><a href="locations.html"><i class="fa fa-map-marker"></i> Locations</a></li>
+                <li><a href="treatments.html"><i class="fa fa-heartbeat"></i> Treatments</a></li>
+                <li><a href="more.html"><i class="fa fa-comment"></i> More</a></li>
+              </ul>
+            </li>
+            <li><a href="#"><i class="fa fa-id-badge"></i> Security</a>
+            <ul>
+              <li><a href="roles.html"><i class="fa fa-id-badge"></i> Roles</a></li>
+              <li><a href="users.html"><i class="fa fa-User"></i> Users</a></li>
+              <li><a href="permissions.html"><i class="fa fa-id-card"></i> Permisions</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+                              
+
+
+                        <li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
+                      </ul>
+                  </div>
+                </div>
+                <div class="col-md-10 content_part">
+                    <div class="row custom_bread_part">
+                        <div class="col-md-12 bread">
+                             <ul>
+                               <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                               <li><a href="#"><i class="fa fa-angle-double-right"></i> Dashboard</a></li>
+                             </ul> 
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+    <div class="col-md-12">
+      <div class="main_content">
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="role1Tab" data-toggle="tab" href="#role1" role="tab" aria-controls="role1" aria-selected="true">Role1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="role2Tab" data-toggle="tab" href="#role2" role="tab" aria-controls="role2" aria-selected="false">Role2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="visitorsTab" data-toggle="tab" href="#visitors" role="tab" aria-controls="visitors" aria-selected="false">Visitors</a>
+              </li>
+              
+            </ul>
+      
+     
+            <div class="tab-content menu_body" id="myTabContent">
+              <div class="tab-pane fade show active" id="role1" role="tabpanel" aria-labelledby="role1Tab">
+                <form>
+                  <div class="card ">
+                    <div class="card-header">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h4 class="card_header_title"><i class="fa fa-gg-circle"></i>Role1</h4>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                   
+
+                       <table class="table table-hover ">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Manage User Account</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <th scope="row">1</th>
+                            <td>Ali </td>
+                             <td>
+                              <a href="#"><i class="fa fa-pencil-square fa-lg"></i></a>
+
+
+
+
+
+                                <a href="#"><i class="fa fa-trash fa-lg"></i></a>
+
+
+                              </td>
+
+
+                          </tr>
+
+                            <tr>
+                            <th scope="row">1</th>
+                            <td>Ali </td>
+                             <td>
+                              <a href="#"><i class="fa fa-pencil-square fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-trash fa-lg"></i></a>
+
+
+                              </td>
+
+
+                          </tr>
+                           
+                        </tbody>
+                      </table>
+               
+
+                    </div>
+                  </div>
+                </form>
+                <div class="card-footer text-center">
+                  <button type="submit" class="btn btn-sm btn-dark submit_btn">SAVE</button>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="role2" role="tabpanel" aria-labelledby="role2Tab">
+               <form>
+                  <div class="card ">
+                    <div class="card-header">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h4 class="card_header_title"><i class="fa fa-gg-circle"></i>Role2</h4>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                    
+                       <table class="table table-hover ">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Manage User Account</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <th scope="row">1</th>
+                            <td>Ali </td>
+                             <td>
+                               <a href="#"><i class="fa fa-pencil-square fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-trash fa-lg"></i></a>
+
+
+                              </td>
+
+
+                          </tr>
+                            <tr>
+                            <th scope="row">1</th>
+                            <td>Ali </td>
+                             <td>
+                              <a href="#"><i class="fa fa-pencil-square fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-trash fa-lg"></i></a>
+
+
+                              </td>
+
+
+                          </tr>
+                           
+                        </tbody>
+                      </table>
+
+
+                    </div>
+                  </div>
+                </form>
+                <div class="card-footer text-center">
+                  <button type="submit" class="btn btn-sm btn-dark submit_btn">SAVE</button>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="visitors" role="tabpanel" aria-labelledby="visitorsTab">
+                <form>
+                  <div class="card ">
+                    <div class="card-header">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h4 class="card_header_title"><i class="fa fa-gg-circle"></i>Visitors</h4>
+                        </div>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                   
+                      <table class="table table-hover ">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Manage User Account</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <th scope="row">1</th>
+                            <td>Ali </td>
+                             <td>
+                               <a href="#"><i class="fa fa-pencil-square fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-trash fa-lg"></i></a>
+
+
+                              </td>
+
+
+                          </tr>
+                            <tr>
+                            <th scope="row">1</th>
+                            <td>Ali </td>
+                             <td>
+                              <a href="#"><i class="fa fa-pencil-square fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-trash fa-lg"></i></a>
+
+
+                              </td>
+
+
+                          </tr>
+                           
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </form>
+                <div class="card-footer text-center">
+                  <button type="submit" class="btn btn-sm btn-dark submit_btn">SAVE</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+                    <form class="disease_form">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h4 class="card_header_title"><i class="fa fa-gg-circle"></i> Create New User Acount </h4>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                             
+                                <div class="form-group row">
+                                    <label for="inputCode3" class="col-md-4 col-form-label">User Name:</label>
+                                    <div class="col-md-8">
+                                        <input type="text" class="form-control" id="inputCode3">
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group row">
+                                    <label for="inputName3" class="col-md-4 col-form-label">Password:</label>
+                                    <div class="col-md-8">
+                                        <input type="text" class="form-control" id="inputName3">
+                                    </div>
+                                </div>
+
+
+
+
+                                 <div class="form-group row ">
+                      <label class="col-sm-4 col-form-label"> Group:</label>
+                      <div class="col-sm-8 selectContainer">
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                          <select name="location" class="form-control selectpicker" >
+                            <option value=" " >--Select--</option>
+                            <option>Role1</option>
+                            <option>Role2</option>
+                            <option >Visitors</option>
+                            
+                            
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+
+                                
+                                <div class="form-group row">
+                                    
+                                    <label class="check_label col-md-4 col-form-label" for="Check1">
+                                        Active:
+                                    </label>
+                                    <div class="col-md-8">
+                                        <input class="form-check-input form-control" type="checkbox" id="Check1">
+                                        
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    
+                                    <label class="check_label col-md-4 col-form-label" for="Check1">
+                                        Reset Password:
+                                    </label>
+                                    <div class="col-md-8">
+                                        <input class="form-check-input form-control" type="checkbox" id="Check1">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer text-center">
+                                <button type="submit" class="btn btn-sm btn-dark submit_btn">SAVE</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid footer_full">
+            
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
